@@ -19,7 +19,7 @@
     under the License.
 */
 
-package de.appplant.cordova.emailcomposer;
+package de.killercodemonkey.cordova.emailcomposer;
 
 import android.content.Context;
 import android.content.Intent;
@@ -165,7 +165,7 @@ public class EmailComposer extends CordovaPlugin {
     @Override
     public void onActivityResult(int reqCode, int resCode, Intent intent) {
         if (null != command) {
-            command.success();   
+            command.success();
         }
     }
 

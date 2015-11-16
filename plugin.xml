@@ -23,8 +23,8 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="de.appplant.cordova.plugin.email-composer"
-        version="0.8.3dev">
+        id="de.killercodemonkey.cordova.plugin.email-composer"
+        version="0.8.2">
 
     <name>EmailComposer</name>
 
@@ -38,7 +38,7 @@
     </repo>
 
     <keywords>
-        appplant, email
+        killercodemonkey, appplant, email
     </keywords>
 
     <license>Apache 2.0</license>
@@ -79,7 +79,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="android-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="de.killercodemonkey.cordova.emailcomposer.EmailComposer"/>
             </feature>
         </config-file>
 
@@ -89,11 +89,11 @@
 
         <source-file
             src="src/android/EmailComposer.java"
-            target-dir="src/de/appplant/cordova/emailcomposer" />
+            target-dir="src/de/killercodemonkey/cordova/emailcomposer" />
 
         <source-file
             src="src/android/EmailComposerImpl.java"
-            target-dir="src/de/appplant/cordova/emailcomposer" />
+            target-dir="src/de/killercodemonkey/cordova/emailcomposer" />
 
     </platform>
 
@@ -103,7 +103,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="android-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="de.killercodemonkey.cordova.emailcomposer.EmailComposer"/>
             </feature>
         </config-file>
 
@@ -113,11 +113,11 @@
 
         <source-file
             src="src/android/EmailComposer.java"
-            target-dir="src/de/appplant/cordova/emailcomposer" />
+            target-dir="src/de/killercodemonkey/cordova/emailcomposer" />
 
         <source-file
             src="src/android/EmailComposerImpl.java"
-            target-dir="src/de/appplant/cordova/emailcomposer" />
+            target-dir="src/de/killercodemonkey/cordova/emailcomposer" />
 
     </platform>
 
@@ -139,7 +139,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="browser-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="de.killercodemonkey.cordova.emailcomposer.EmailComposer"/>
             </feature>
 		</config-file>
 

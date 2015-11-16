@@ -48,7 +48,7 @@ exports.isAvailable = function (success) {
 exports.open = function (success, error, args) {
     var props = args[0];
 
-    if (!(Windows.ApplicationModel.Email==undefined)) {
+    if ((Windows.ApplicationModel.Email !== undefined)) {
         var email = exports.draftUtil.getDraftWithProperties(props);
 
         Windows.ApplicationModel.Email.EmailManager
@@ -62,7 +62,7 @@ exports.open = function (success, error, args) {
                         success();
                     }, false);
                 }
-                
+
             });
     } else {
         var mailTo = exports.draftUtil.getMailTo(props);

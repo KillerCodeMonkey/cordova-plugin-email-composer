@@ -4,8 +4,11 @@
     <a href="https://github.com/katzer/cordova-plugin-email-composer/tree/example">EXAMPLE :point_right:</a>
 </p>
 
-Cordova Email Plugin
+Cordova Email Composer Plugin
 ====================
+
+THIS IS A FORK OF THE ORIGINAL PLUGIN TO PROVIDE THE LATEST VERSION ON NPM!
+
 
 <img width="260px" align="right" hspace="7" vspace="5" src="http://flashsimulations.com/wp-content/uploads/2011/12/air-ios-in-app-mail-app.png">
 
@@ -46,18 +49,19 @@ cordova plugin add https://github.com/katzer/cordova-plugin-email-composer.git
 from a local folder:
 ```bash
 # ~~ local folder ~~
-cordova plugin add de.appplant.cordova.plugin.email-composer --searchpath path/to/plugin
+cordova plugin add de.killercodemonkey.cordova.plugin.email-composer --searchpath path/to/plugin
 ```
 or to use the last stable version:
 ```bash
 # ~~ stable version ~~
-cordova plugin add de.appplant.cordova.plugin.email-composer@0.8.2
+cordova plugin add de.killercodemonkey.cordova.plugin.email-composer@0.8.2
+cordova plugin add cordova-plugin-email-composer
 ```
 
 ### PhoneGap Build
 Add the following xml to your config.xml to always use the latest version of this plugin:
 ```xml
-<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
+<gap:plugin name="de.killercodemonkey.cordova.plugin.email-composer" version="0.8.2" />
 ```
 More informations can be found [here][PGB_plugin].
 

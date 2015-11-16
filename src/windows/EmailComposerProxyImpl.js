@@ -19,10 +19,10 @@ specific language governing permissions and limitations
 under the License.
 */
 
-var proxy = require('de.appplant.cordova.plugin.email-composer.EmailComposerProxy');
+var proxy = require('de.killercodemonkey.cordova.plugin.email-composer.EmailComposerProxy');
 
 	proxy.draftUtil = {
-	
+
 		/**
 		 * The Email with the containing properties.
 		 *

@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-email-composer",
+  "version": "0.8.2",
+  "description": "Cordova Email Composer Cordova Plugin",
+  "cordova": {
+    "id": "cordova-plugin-email-composer",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ios",
+      "windows",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KillerCodeMonkey/cordova-plugin-email-composer.git"
+  },
+  "keywords": [
+    "cordova",
+    "email",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-windows"
+  ],
+  "author": "Bengt Weiße (forked from Sebastian Katzer)",
+  "license": "MIT"
+}
